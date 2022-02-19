@@ -12,9 +12,13 @@
 *{
   font-family: Gilroy;
 }
-
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
 button{
  background: #F9B300;
 border-radius: 5px;
 border: none;
+cursor: pointer;
 }
