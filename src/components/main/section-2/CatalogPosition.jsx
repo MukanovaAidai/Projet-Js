@@ -8,7 +8,7 @@ export default function CatalogPosition ({position}) {
             <div className="section-two__position" style={{position: "relative", height: "100%", width: "90%", display: 'grid', gridTemplateRows: '60% 20% 20%', justifyContent: "center", alignItems: 'center', margin: '0 auto' }}>
                 <img style={{width: "70%", justifySelf:"center"}} src={position.img} alt="Кофе-машинка" />
                 <p style={{textAlign: 'center', fontWeight: 'bold'}}>{position.name}</p>
-                <button style={{width: '150px', maxHeight: '40px', justifySelf:"center", }}>Купить</button>
+                <button style={{width: '80%', maxHeight: '40px', justifySelf:"center", }}>Купить</button>
             </div>
             </div>
     )
