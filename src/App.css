@@ -1,12 +1,4 @@
-@font-face {
-  font-family: 'Gilroy';
-  src: local('Gilroy'),
-       url('fonts/fonts/Gilroy-Regular.ttf') format('truetype'),
-       url('fonts/fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
-       url('fonts/fonts/Gilroy-Regular.woff') format('woff'); 
-  font-weight: 400;
-  font-style: normal;
-}
+@import url("fonts/Gilroy/stylesheet.css");
 
 
 *{
@@ -17,8 +9,15 @@
   margin: 0 auto;
 }
 button{
- background: #F9B300;
-border-radius: 5px;
+background: #F9B300;
+border-radius: 8px;
 border: none;
-cursor: pointer;
+color: white;
+padding: 10px;
+font-weight: bold;
+text-align: center;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 900;
 }
