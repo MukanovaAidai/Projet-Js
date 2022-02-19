@@ -1,7 +1,7 @@
 
 import './App.css';
-import FreshCoffee from './components/Header/FreshCoffee';
 import Header from './components/Header/Header';
+import FreshCoffee from './components/main/section-1/FreshCoffee';
 
 function App() {
   return (

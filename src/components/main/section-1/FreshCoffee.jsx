@@ -1,4 +1,4 @@
-import CatalogButton from './Button';
+import CatalogButton from '../../Header/Button';
 
 export default function FreshCoffee(){
 
