@@ -1,0 +1,24 @@
+.section-two__position {
+    top: 10px;
+    transition: top 0.3s;
+}
+.section-two__position button {
+    display: none;
+    background-color: transparent;
+    color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+.section-two__position p {
+    transition: font-size 0.3s;
+}
+.section-two__position:hover {
+    top: -70px;
+}
+.section-two__position:hover button{
+    display: block;
+    background-color: #F9B300;
+    color: white;
+}
+.section-two__position:hover p{
+    font-size: 27px;
+}

@@ -1,13 +1,15 @@
-import { Typography } from '@mui/material';
-import Grid from '@mui/material/Grid';
-// import coffeeMachine from '../../img/coffee-machine.png'
+
+import './sectionTwo.css'
 
 export default function CatalogPosition ({position}) {
-    console.log(position)
     return (
-        <Grid key={123123} item>
-            <img src='../../img/coffee-machine.png' alt="Кофе-машинка" />
-            <Typography>{'фывфывфыв'}</Typography>
-        </Grid>
+        
+        <div style={{height: "380px", width: "270px", boxShadow: '0 0 21.2553px rgb(146 146 146 / 20%)', borderRadius: '10px'}}>
+            <div className="section-two__position" style={{position: "relative", height: "100%", width: "90%", display: 'grid', gridTemplateRows: '60% 20% 20%', justifyContent: "center", alignItems: 'center', margin: '0 auto' }}>
+                <img style={{width: "70%", justifySelf:"center"}} src={position.img} alt="Кофе-машинка" />
+                <p style={{textAlign: 'center', fontWeight: 'bold'}}>{position.name}</p>
+                <button style={{width: '150px', maxHeight: '40px', justifySelf:"center", }}>Купить</button>
+            </div>
+            </div>
     )
 }
