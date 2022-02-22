@@ -1,13 +1,8 @@
 import CatalogButton from '../../../Header/Button';
 import coffee from '../../../../img/espresso.svg';
 import seeds from '../../../../img/coffee seeds.svg'
-import { display } from '@mui/system';
 
 export default function FreshCoffee(){
-
-
-
-
     return(
         <div className='container' style={{marginTop:'100px' , position:'relative',height:'100vh'}}>
          <div style={{width:'60%'}} className="info-coffee">
@@ -22,8 +17,8 @@ export default function FreshCoffee(){
              </div>
              
          </div>
-                 <img style={{position:'absolute',right: 0,top:0}} src={seeds} alt="" />
-                 <img style={{position:'absolute',right: 0,top:0}} src={coffee} alt="espresso" />
+        <img style={{position:'absolute',right: 0,top:0}} src={seeds} alt="" />
+        <img style={{position:'absolute',right: 0,top:0}} src={coffee} alt="espresso" />
      </div>
     )
 }
